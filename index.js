@@ -2,7 +2,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 var jwt = require('jsonwebtoken');
 
-const authGuard = (req, res, next) => {
+const jwtGuard = (req, res, next) => {
     var token = req.body.token || req.query.token || req.headers['x-access-token'];
 
     if (token) {
@@ -21,4 +21,4 @@ const authGuard = (req, res, next) => {
     }
 }
 
-module.exports = jwtAuthGuard;
+module.exports = jwtGuard;

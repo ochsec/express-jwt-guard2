@@ -9,10 +9,10 @@ Requires a .env file in the root directory of the Express app with a SECRET key
 
 ### Usage
     const express = require('express');
-    const authGuard = require('express-jwt-guard2');
+    const jwtGuard = require('express-jwt-guard2');
     const router = express.Router();
 
-    router.use(authGuard);
+    router.use(jwtGuard);
     
     router.get('/', (req, res) => {
         // router logic
