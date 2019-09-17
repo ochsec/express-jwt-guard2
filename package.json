@@ -1,0 +1,15 @@
+{
+  "name": "express-jwt-guard2",
+  "version": "0.1.0",
+  "description": "A middleware jwt route guard for express routes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Ochsenreither",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
