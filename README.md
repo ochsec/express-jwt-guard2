@@ -23,5 +23,3 @@ Requires a .env file in the root directory of the Express app with a SECRET key
 ### NPM Dependencies
 - dotenv
 - jsonwebtoken
-  
-      npm i dotenv jsonwebtoken --save

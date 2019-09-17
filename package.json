@@ -1,6 +1,6 @@
 {
   "name": "express-jwt-guard2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A middleware jwt route guard for express routes",
   "main": "index.js",
   "scripts": {
